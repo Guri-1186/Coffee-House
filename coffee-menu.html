@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="coffee-menu.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Coffee House</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-logo-box">
+          <a href="index.html">
+            <img
+              class="logo"
+              src="assets/Img/logo.png"
+              alt="coffee house logo"
+            />
+          </a>
+        </div>
+
+        <nav class="navigation-nav">
+          <ul class="navigation-list">
+            <li><a class="menu-item" href="#favourite">Favorite Coffee</a></li>
+            <li><a class="menu-item" href="#about">About</a></li>
+            <li><a class="menu-item" href="#mobile">Mobile app</a></li>
+            <li><a class="menu-item" href="#contact">Contact us</a></li>
+          </ul>
+        </nav>
+        <a class="header-coffee-menu" href="coffee-menu.html">
+          Menu
+          <img
+            class="coffee-cup"
+            src="assets/Img/coffee-cup.png"
+            alt="coffee-cup"
+          />
+        </a>
+        <button class="btn-mobile-nav">
+          <span class="svg-mobile-nav">
+            <svg
+              class="svg-mobile-nav"
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="2"
+              viewBox="0 0 18 2"
+              fill="none"
+            >
+              <path
+                d="M1 1H17"
+                stroke="#403F3D"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="2"
+              viewBox="0 0 18 2"
+              fill="none"
+            >
+              <path
+                d="M1 1H17"
+                stroke="#403F3D"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </button>
+      </header>
+      <main>
+        <section class="section-coffee-menu container">
+          <div class="center-text">
+            <h1 class="coffee-menu-headline">
+              Behind each of our cups
+              <br />
+              hides an
+              <span class="accent-heading">amazing surprise</span>
+            </h1>
+            <div class="tabs">
+              <a href="#" class="tab-item item-1">
+                <img src="assets/Img/coffe.png" alt="cup of coffee icon" />
+                <p>Coffee</p>
+              </a>
+              <a href="#" class="tab-item item-2">
+                <img src="assets/Img/tea.png" alt="teapot icon" />
+                <p>Tea</p>
+              </a>
+              <a href="#" class="tab-item item-3">
+                <img src="assets/Img/cacke.png" alt="cake icon" />
+                <p>Dessert</p>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="grid grid--4-cols margin-bottom-md grid--2-cols grid--1-cols"
+          >
+            <div class="coffee">
+              <div class="coffee-img">
+                <img
+                  src="assets/Img/coffee-1.png"
+                  alt="coffee-1"
+                  class="coffee-img"
+                />
+              </div>
+              <div class="coffee-content">
+                <p class="coffee-title">Irish coffee</p>
+                <p class="coffee-description">
+                  Fragrant black coffee with Jameson Irish whiskey and whipped
+                  milk
+                </p>
+                <p class="price">$7</p>
+              </div>
+            </div>
+            <div class="coffee">
+              <div class="coffee-img">
+                <img
+                  src="assets/Img/coffee-2.png"
+                  alt="coffee-2"
+                  class="coffee-img"
+                />
+              </div>
+              <div class="coffee-content">
+                <p class="coffee-title">Kahlua coffee</p>
+                <p class="coffee-description">
+                  Classic coffee with milk and Kahlua liqueur under a cap of
+                  frothed milk
+                </p>
+                <p class="price">$7</p>
+              </div>
+            </div>
+            <div class="coffee">
+              <div class="coffee-img">
+                <img
+                  src="assets/Img/coffee-3.png"
+                  alt="coffee-3"
+                  class="coffee-img"
+                />
+              </div>
+              <div class="coffee-content">
+                <p class="coffee-title">Honey raf</p>
+                <p class="coffee-description">
+                  Espresso with frothed milk, cream and aromatic honey
+                </p>
+                <p class="price">$5.50</p>
+              </div>
+            </div>
+            <div class="coffee">
+              <div class="coffee-img">
+                <img
+                  src="assets/Img/coffee-4.png"
+                  alt="coffee-4"
+                  class="coffee-img"
+                />
+              </div>
+              <div class="coffee-content">
+                <p class="coffee-title">ice cappuccino</p>
+                <p class="coffee-description">
+                  Cappuccino with soft thick foam in summer version with ice
+                </p>
+                <p class="price">$5</p>
+              </div>
+            </div>
+            <div class="coffee">
+              <div class="coffee-img">
+                <img
+                  src="assets/Img/coffee-5.jpg"
+                  alt="coffee-5"
+                  class="coffee-img"
+                />
+              </div>
+              <div class="coffee-content">
+                <p class="coffee-title">Espresso</p>
+                <p class="coffee-description">Classic black coffee</p>
+                <p class="price">$4.50</p>
+              </div>
+            </div>
+            <div class="coffee">
+              <div class="coffee-img">
+                <img
+                  src="assets/Img/coffee-6.png"
+                  class="coffee-img"
+                  alt="coffee-6"
+                />
+              </div>
+              <div class="coffee-content">
+                <p class="coffee-title">Latte</p>
+                <p class="coffee-description">
+                  Espresso coffee with the addition of steamed milk and dense
+                  milk foam
+                </p>
+                <p class="price">$5.50</p>
+              </div>
+            </div>
+            <div class="coffee">
+              <div class="coffee-img">
+                <img
+                  src="assets/Img/coffee-7.png"
+                  class="coffee-img"
+                  alt="coffee-7"
+                />
+              </div>
+              <div class="coffee-content">
+                <p class="coffee-title">Latte macciato</p>
+                <p class="coffee-description">
+                  Espresso with frothed milk and chocolate
+                </p>
+                <p class="price">$5.50</p>
+              </div>
+            </div>
+            <div class="coffee">
+              <div class="coffee-img">
+                <img
+                  src="assets/Img/coffee-8.png"
+                  class="coffee-img"
+                  alt="coffee-7"
+                />
+              </div>
+              <div class="coffee-content">
+                <p class="coffee-title">Coffee with cognac</p>
+                <p class="coffee-description">
+                  Fragrant black coffee with cognac and whipped cream
+                </p>
+                <p class="price">$6.50</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="contact">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="left-column">
+              <div class="footer-text">
+                <p>
+                  Sip, Savor, Smile.
+                  <br />
+                  <span class="accent-heading">It’s coffee time!</span>
+                </p>
+                <ul class="social-links">
+                  <li>
+                    <a class="social-icons" href="#">
+                      <svg
+                        class="social-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z"
+                          stroke="#E1D4C9"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-icons" href="#">
+                      <svg
+                        class="social-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                          stroke="#E1D4C9"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                          stroke="#E1D4C9"
+                        />
+                        <path
+                          d="M17.5 6.51L17.51 6.49889"
+                          stroke="#E1D4C9"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="social-icons" href="#">
+                      <svg
+                        class="social-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z"
+                          stroke="#E1D4C9"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="right-column">
+              <div class="address-col">
+                <p class="footer-heading">Contact us</p>
+                <address class="contacts">
+                  <a
+                    class="address"
+                    href="https://maps.google.com?q=8558%20Green%20Rd.,%20LA"
+                  >
+                    <ion-icon name="location-outline"></ion-icon>
+                    8558 Green Rd., LA
+                  </a>
+                  <p>
+                    <a class="footer-link" href="tel:+1(603)555-0123">
+                      <ion-icon name="call-outline"></ion-icon>
+                      tel:+1(603)555-0123
+                    </a>
+                    <a class="footer-link" href=""></a>
+                  </p>
+                  <p>
+                    <a class="footer-link" href="#">
+                      <ion-icon name="time-outline"></ion-icon>
+                      Mon-Sat: 9:00 AM – 23:00 PM
+                    </a>
+                  </p>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
